@@ -1,21 +1,21 @@
 algoritmo "MultiplicaInput2"
-// Função : Mostra a multiplicação entre 10 números informados pelo usuário
+// FunÃ§Ã£o : Mostra a multiplicaÃ§Ã£o entre 10 nÃºmeros informados pelo usuÃ¡rio
 // Autor :  Milena Rubik Peres
 // Data : 14/04/2022
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 multiplica,i,num: inteiro
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 i<-1
 multiplica<-1
-enquanto i <= 3 faca
-escreval("Digite um número inteiro")
+enquanto i <= 10 faca
+escreval("Digite um nÃºmero inteiro")
 leia(num)
 multiplica<-multiplica*num
 i<-i+1
 fimenquanto
 
-escreval("A multiplicação dos números digitados é",multiplica)
+escreval("A multiplicaÃ§Ã£o dos nÃºmeros digitados Ã©",multiplica)
 
 fimalgoritmo
